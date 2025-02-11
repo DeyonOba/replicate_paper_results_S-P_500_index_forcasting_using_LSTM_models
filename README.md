@@ -4,8 +4,10 @@ Replicate research paper results for forecasting S&amp;P 500 index using LSTM mo
 ## Reference
 
 - **Research paper**: https://arxiv.org/abs/2501.17366 ; https://arxiv.org/pdf/2501.17366
-- **Data Source (S&P 500 index)**: https://www.wsj.com/market-data/quotes/index/SPX/historical-prices
-- **Data Source (U.S. Treasury Yields)**: https://www.kaggle.com/datasets/guillemservera/us-treasury-yields-daily
+- **Data Sources**
+  + **S&P 500 index**: https://www.wsj.com/market-data/quotes/index/SPX/historical-prices
+  + **U.S. Treasury Yields**: https://www.kaggle.com/datasets/guillemservera/us-treasury-yields-daily
+  + **Volatility Index**: https://www.kaggle.com/datasets/guillemservera/vix-cboe-volatility-index-daily-updated
 
 [1]: https://arxiv.org/pdf/2501.17366
 [2]: https://www.wsj.com/market-data/quotes/index/SPX/historical-prices
@@ -39,5 +41,3 @@ Along with the historical SPX data, the following additional metrics are conside
   + Consumer Confidence Index (CONCCONF)
 
 The original data source used in the [reasearch paper][1] was gotten from [bloomberg](https://www.bloomberg.com/). 
-
-
